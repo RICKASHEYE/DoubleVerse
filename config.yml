@@ -1,0 +1,4 @@
+#Pretty much the actual config
+#Presets like buying worlds and locks for world etc.
+enablelockworld: true
+enablebuyworld: true

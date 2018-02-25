@@ -1,0 +1,52 @@
+#Custom Messages!
+#These are messages that you cant edit or modify to have a different look in-game!
+
+#Error messages!
+invalidperms: &4Invalid Perms!
+invalidworldname: &4Invalid World Name!
+invalidworldattribute: &4Invalid World Argument!
+unabletoloadword: &4Unable to load world!
+noworldnameentered: &4There wasnt any world name found.
+
+tryingtorenamefile: &cTrying to rename file!
+
+#Prompt Messages
+#Loading world
+loadingworld: &eLoading World...
+loadedworld: &aLoaded World.
+
+#Unloading world
+unloadingworld: &cUnloading World!
+unloadedworld: &aWorld Unloaded!
+
+worlddoesntexist: &4Your world does not exist!
+worldunloadedalready: &4Your world is either unloaded or doesnt exist!
+retryteleport: &cRetrying to teleport!
+removingplayers: &4Removing players and teleporting them to the a world
+
+renamefile: &4Trying to rename file!
+renamedfile: &aSucessfully renamed file!
+unabletounloadworld: &4Unable to unload world!
+foundfile: &6Found File
+filedontexist: &4File does not exist!
+
+#This one does not seem to support colour codes for some reason... *scratches_head
+kickmessageworldnoexist: World no longer exists!
+
+#Delete world
+deletingworld: &4Deleting world...
+deletedworld: &4Deleted World
+
+#Chat variable
+variablechat: %world%
+
+#Change this to true and it will enable other plugins even players to do %player% and will tell what world they are in!
+customchatparse: true
+
+#Enable this will change every players chat with its own custom setup of format. first you have to enable customchatparse for it to work!
+customchatprefixes: true
+
+#Lock prompts
+lockworld: &cLocked World!
+unlockworld: &6Unlocked world!
+lockednotification: &6This world is locked!

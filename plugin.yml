@@ -1,0 +1,61 @@
+name: DoubleVerse
+main: com.rickasheye.main.Main
+version: 1.0
+author: Rickasheye
+description: multiverseClone
+commands:
+  world:
+    description: teleports to a seperate world!
+  createworld:
+    description: creates a new world and also teleports player to that world!
+  worldtypes:
+    description: display the worldtypes!
+  destroyworld:
+    description: destroy a world!
+  unloadworld:
+    description: unload a world
+  loadworld:
+    description: load a world
+  worlds:
+    description: get world names!
+  rename: 
+    description: rename a world!
+  worldcheck:
+    description: check a world (Info about the world)
+  reloadworld:
+    description: reloads the specified world!
+  lockworld:
+    description: locks a world!
+  unlockworld:
+    description: unlocks a world if has permissions
+permissions:
+  doubleverse.world:
+    description: Allows the user to travel worlds
+  doubleverse.world.createworld:
+    description: Allows the user to create a world
+  doubleverse.world.worldtypes:
+    description: Displays the world types
+  doubleverse.world.unloadworld:
+    description: Unload a specified world!
+  doubleverse.world.loadworld:
+    description: Allows the user to load a world!
+  doubleverse.world.worlds:
+    description: Allows the user to display all the worlds loaded
+  doubleverse.world.rename:
+    description: Allows the user to rename certain worlds that are loaded!
+  doubleverse.world.worldcheck:
+    description: Info about world selected
+  doubleverse.world.worldcheck.players:
+    description: Checks who is in the certain world!
+  doubleverse.world.reloadworld:
+    description: Reloads the specified world!
+  doubleverse.world.other:
+    description: allows a certain player to teleport another player to a world
+  doubleverse.world.destroyworld:
+    description: allows the player to destory world as in delete them
+  doubleverse.lock.lockworld:
+    description: allows the player to lock a world
+  doubleverse.lock.unlockworld:
+    description: allows the player to unlock a world
+  doubleverse.lock.override:
+    description: allows any person that has this to override the lock and join the world!
